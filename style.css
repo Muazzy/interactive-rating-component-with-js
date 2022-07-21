@@ -46,7 +46,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    display: -webkit-box;
+    display: -webkit-flex;
     -webkit-box-align: center;
     -webkit-box-pack: center;
     display: -ms-flexbox;
@@ -75,7 +75,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    display: -webkit-box;
+    display: -webkit-flex;
     -webkit-box-align: center;
     -webkit-box-pack: center;
     display: -ms-flexbox;
@@ -170,7 +170,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    display: -webkit-box;
+    display: -webkit-flex;
     -webkit-box-align: center;
     -webkit-box-pack: center;
     display: -ms-flexbox;
@@ -192,7 +192,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    display: -webkit-box;
+    display: -webkit-flex;
     -webkit-box-align: center;
     -webkit-box-pack: center;
     display: -ms-flexbox;
