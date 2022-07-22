@@ -2,12 +2,8 @@
     /* ## Colors */
 
     /* ### Primary */
-
     --Orange: hsl(25, 97%, 53%);
-
     /* ### Neutral */
-    /* font-family: 'Overpass', sans-serif; */
-
     --White: hsl(0, 0%, 100%);
     --Light-Grey: hsl(217, 12%, 63%);
     --Medium-Grey: hsl(216, 12%, 54%);
@@ -15,9 +11,6 @@
     --Dark-Blue-less-opacity: hsla(213, 19%, 18%, 0.5);
     --Very-Dark-Blue: hsl(216, 12%, 8%);
     --rating-buttons-bgc: hsla(214, 21%, 31%, 0.4);
-
-    /* background-color: rgba(37, 45, 55, 0.6); */
-
 }
 
 * {
@@ -39,10 +32,8 @@ p {
     font-size: 15px;
 }
 
-.container {
-    background-color: var(--Very-Dark-Blue);
-    height: 100vh;
-    width: 100vw;
+/* for centering any element */
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,6 +43,12 @@ p {
     display: -ms-flexbox;
     -ms-flex-align: center;
     -ms-flex-pack: center;
+}
+
+.container {
+    background-color: var(--Very-Dark-Blue);
+    height: 100vh;
+    width: 100vw;
 }
 
 .card {
@@ -71,23 +68,10 @@ p {
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
-    /* for centering the star perfectly */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: -webkit-flex;
-    -webkit-box-align: center;
-    -webkit-box-pack: center;
-    display: -ms-flexbox;
-    -ms-flex-align: center;
-    -ms-flex-pack: center;
-    /**/
     /*same card color with less opacity*/
     background-color: var(--rating-buttons-bgc);
     padding: 1.2rem;
 }
-
-
 
 .icon-star img {
     width: 1.3rem;
@@ -101,26 +85,13 @@ p {
 }
 
 .rating-button {
-    /* for centering the text perfectly */
-    /* text-align: center; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: -webkit-flex;
-    -webkit-box-align: center;
-    -webkit-box-pack: center;
-    display: -ms-flexbox;
-    -ms-flex-align: center;
-    -ms-flex-pack: center;
-    align-content: center;
-    /**/
-    /*for centering the text of the buttons*/
     width: 2rem;
     height: 2rem;
 
     padding: 1.2rem;
     background-color: var(--rating-buttons-bgc);
     border-radius: 50%;
+    transition: background-color 0.2s ease;
 }
 
 .rating-button:hover {
@@ -145,11 +116,8 @@ p {
     padding: 0.6rem 1rem;
     color: white;
     background-color: var(--Orange);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     /*have to apply this transition letter*/
-    /* transition: all; */
+    transition: background-color 0.2s ease;
 }
 
 .submit-button:hover {
@@ -159,24 +127,9 @@ p {
 
 }
 
-
 /* Thank you card */
 .thankyou-card {
     text-align: center;
-}
-
-.vector-image {
-    /* for centering the illustration */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: -webkit-flex;
-    -webkit-box-align: center;
-    -webkit-box-pack: center;
-    display: -ms-flexbox;
-    -ms-flex-align: center;
-    -ms-flex-pack: center;
-    /**/
 }
 
 .rating-text {
@@ -188,17 +141,6 @@ p {
     background-color: var(--rating-buttons-bgc);
 }
 
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: -webkit-flex;
-    -webkit-box-align: center;
-    -webkit-box-pack: center;
-    display: -ms-flexbox;
-    -ms-flex-align: center;
-    -ms-flex-pack: center;
-}
 
 /* for hiding a screen */
 
